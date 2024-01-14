@@ -1,0 +1,73 @@
+html {
+    background: linear-gradient(70deg, rgb(19, 143, 205), rgb(184, 176, 194));
+}
+
+.align {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    animation-duration: 1s;
+    animation-name: slidein;
+    border: 4mm ridge rgba(14, 14, 227, 0.6);
+    border-radius: 50%;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  .styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(58, 123, 228);
+    background-image: linear-gradient(
+      to top left,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2) 30%,
+      rgba(0, 0, 0, 0)
+    );
+    box-shadow:
+      inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+      inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  }
+  
+  .styled:hover {
+    background-color: rgb(3, 88, 224);
+  }
+  
+  .styled:active {
+    box-shadow:
+      inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+      inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+  }
+  
+
+  .icon-bas-ecran {
+    
+    position: fixed;
+    bottom: 0;
+    left: 4%; 
+    transform: translateX(-50%);
+    
+  }
+
+ 
